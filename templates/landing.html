@@ -1,0 +1,27 @@
+<!-- CSS only -->
+{% load static %} {% include "nav.html" %}
+<head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="{% static 'style.css' %}" />
+  <h1 id="main-heading">MONOLITH BIKES</h1>
+</head>
+<body>
+  <div class="jumbotron"></div>
+  <img src="{% static 'img/bike1.jpeg' %}" alt="My image" class="card" />
+  <img src="{% static 'img/bike2.jpeg' %}" alt="My image" class="card" />
+  <img src="{% static 'img/bike3.jpeg' %}" alt="My image" class="card" />
+  <img src="{% static 'img/bike4.jpeg' %}" alt="My image" class="card" />
+  <img src="{% static 'img/bike5.jpeg' %}" alt="My image" class="card" />
+  <img src="{% static 'img/bike6.jpeg' %}" alt="My image" class="card" />
+</body>
+<footer>
+  <img src="{% static 'img/face.png' %}" alt="facebook logo" class="social" />
+  <a href="https://www.instagram.com/monolithbikes/"
+    ><img src="{% static 'img/insta.png' %}" alt="instagram logo" class="social" />
+  </a>
+</footer>

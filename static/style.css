@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+#main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Vast Shadow", cursive;
+}
+
+.card {
+  display: inline-grid;
+  margin: 10px;
+  box-shadow: 5px 5px 5px 5px;
+
+  width: 200;
+  height: 200;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  width: 24px;
+  margin: 10px;
+}
